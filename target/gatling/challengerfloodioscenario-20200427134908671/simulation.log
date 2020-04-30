@@ -1,0 +1,10 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587995348671	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587995349663	1587995349663
+REQUEST	1		Open Home Page	1587995349696	1587995350750	OK	 
+REQUEST	1		Start Test Step 1	1587995355777	1587995356028	OK	 
+REQUEST	1		Start Test Step 1 Redirect 1	1587995356033	1587995356540	OK	 
+REQUEST	1		Start Test Step 1 Redirect 2	1587995356542	1587995356770	OK	 
+REQUEST	1		Step 2	1587995356787	1587995357089	OK	 
+REQUEST	1		Step 2 Redirect 1	1587995357091	1587995357320	OK	 
+REQUEST	1		Step 2 Redirect 2	1587995357321	1587995357546	KO	css((.collection_radio_buttons,None)).findAll.transform.transform.exists extraction crashed: transform crashed: j.l.NumberFormatException: For input string: "Vector(78"
+USER	Test challengers.flood.io	1	END	1587995349663	1587995357573

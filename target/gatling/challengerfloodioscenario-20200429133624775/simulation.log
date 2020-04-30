@@ -1,0 +1,14 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1588167384775	 	3.1.1
+USER	Test challengers.flood.io	1	START	1588167385782	1588167385782
+REQUEST	1		Open Home Page	1588167385815	1588167386833	OK	 
+REQUEST	1		Start Test Step 1	1588167391867	1588167392082	OK	 
+REQUEST	1		Start Test Step 1 Redirect 1	1588167392086	1588167392568	OK	 
+REQUEST	1		Start Test Step 1 Redirect 2	1588167392569	1588167392786	OK	 
+REQUEST	1		Step 2	1588167392805	1588167393077	OK	 
+REQUEST	1		Step 2 Redirect 1	1588167393078	1588167393291	OK	 
+REQUEST	1		Step 2 Redirect 2	1588167393292	1588167393509	OK	 
+REQUEST	1		Step 3	1588167393516	1588167393794	OK	 
+REQUEST	1		Step 3 Redirect 1	1588167393795	1588167394203	OK	 
+REQUEST	1		Step 3 Redirect 2	1588167394204	1588167394525	OK	 
+ERROR	Step 4: Failed to build request: Can't cast value Vector((challenger[order_5],1588167394), (challenger[order_9],1588167394), (challenger[order_11],1588167394), (challenger[order_6],1588167394), (challenger[order_8],1588167394), (challenger[order_13],1588167394), (challenger[order_10],1588167394), (challenger[order_16],1588167394), (challenger[order_17],1588167394), (challenger[order_10],1588167394)) of type class scala.collection.immutable.Vector into interface scala.collection.immutable.Map 	1588167394535
+USER	Test challengers.flood.io	1	END	1588167385782	1588167394545

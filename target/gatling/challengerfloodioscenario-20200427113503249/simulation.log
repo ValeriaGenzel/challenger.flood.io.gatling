@@ -1,0 +1,10 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587987303249	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587987304247	1587987304247
+REQUEST	1		Open Home Page	1587987304279	1587987305337	OK	 
+REQUEST	1		Start Test Step 1	1587987310371	1587987310691	OK	 
+REQUEST	1		Start Test Step 1 Redirect 1	1587987310697	1587987311222	OK	 
+REQUEST	1		Start Test Step 1 Redirect 2	1587987311223	1587987311464	OK	 
+REQUEST	1		Step 2	1587987311482	1587987311728	OK	 
+REQUEST	1		Step 2 Redirect 1	1587987311729	1587987311952	OK	 
+REQUEST	1		Step 2 Redirect 2	1587987311953	1587987312182	KO	css((.collection_radio_buttons,None)).findAll.transform.exists extraction crashed: transform crashed: j.l.ClassCastException: scala.collection.immutable.Vector cannot be cast to java.lang.Integer
+USER	Test challengers.flood.io	1	END	1587987304247	1587987312201

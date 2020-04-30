@@ -1,0 +1,4 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587724317802	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587724318910	1587724318910
+REQUEST	1		Open Home Page	1587724318943	1587724319957	OK	 
+USER	Test challengers.flood.io	1	END	1587724318910	1587724324983

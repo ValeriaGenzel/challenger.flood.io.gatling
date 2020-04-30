@@ -1,0 +1,4 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587724566089	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587724566658	1587724566658
+REQUEST	1		Open Home Page	1587724566733	1587724566735	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
+USER	Test challengers.flood.io	1	END	1587724566658	1587724571753

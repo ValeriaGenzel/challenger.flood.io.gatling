@@ -1,0 +1,5 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587738159568	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587738160583	1587738160583
+REQUEST	1		Open Home Page	1587738160612	1587738161726	OK	 
+REQUEST	1		Start Test	1587738166755	1587738167079	KO	css((#challenger_step_id,Some(value))).find.exists, found nothing
+USER	Test challengers.flood.io	1	END	1587738160583	1587738167094

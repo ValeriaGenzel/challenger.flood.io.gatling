@@ -1,0 +1,10 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587999242882	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587999244343	1587999244343
+REQUEST	1		Open Home Page	1587999244376	1587999245381	OK	 
+REQUEST	1		Start Test Step 1	1587999250412	1587999250715	OK	 
+REQUEST	1		Start Test Step 1 Redirect 1	1587999250720	1587999251228	OK	 
+REQUEST	1		Start Test Step 1 Redirect 2	1587999251229	1587999251531	OK	 
+REQUEST	1		Step 2	1587999251547	1587999251836	OK	 
+REQUEST	1		Step 2 Redirect 1	1587999251837	1587999252054	OK	 
+REQUEST	1		Step 2 Redirect 2	1587999252055	1587999252353	KO	css((.collection_radio_buttons,None)).findAll.transform.exists extraction crashed: transform crashed: j.l.NumberFormatException: For input string: "211,39,115,101,104"
+USER	Test challengers.flood.io	1	END	1587999244343	1587999252373

@@ -1,0 +1,10 @@
+{
+  "simulation": "ChallengerFloodIOScenario",
+  "simulationId": "challengerfloodioscenario",
+  "start": 1588080113387,
+  "description": "",
+  "scenarios": ["Test challengers.flood.io"],
+  "assertions": [
+
+  ]
+}

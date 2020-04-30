@@ -1,0 +1,10 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1588169687665	 	3.1.1
+USER	Test challengers.flood.io	1	START	1588169688347	1588169688347
+REQUEST	1		Open Home Page	1588169688382	1588169688384	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
+ERROR	Start Test Step 1: Failed to build request: No attribute named 'authenticityToken' is defined 	1588169693428
+ERROR	Step 2: Failed to build request: No attribute named 'authenticityToken' is defined 	1588169693428
+ERROR	Step 3: Failed to build request: No attribute named 'authenticityToken' is defined 	1588169693429
+ERROR	Step 4: Failed to build request: No attribute named 'authenticityToken' is defined 	1588169693429
+REQUEST	1		Code	1588169693430	1588169693431	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
+ERROR	Step 5: Failed to build request: No attribute named 'authenticityToken' is defined 	1588169693431
+USER	Test challengers.flood.io	1	END	1588169688347	1588169693436

@@ -1,0 +1,10 @@
+RUN	ChallengerFloodIOScenario	challengerfloodioscenario	1587997329167	 	3.1.1
+USER	Test challengers.flood.io	1	START	1587997330116	1587997330116
+REQUEST	1		Open Home Page	1587997330148	1587997331222	OK	 
+REQUEST	1		Start Test Step 1	1587997336247	1587997336655	OK	 
+REQUEST	1		Start Test Step 1 Redirect 1	1587997336660	1587997337164	OK	 
+REQUEST	1		Start Test Step 1 Redirect 2	1587997337165	1587997337394	OK	 
+REQUEST	1		Step 2	1587997337412	1587997337669	OK	 
+REQUEST	1		Step 2 Redirect 1	1587997337670	1587997337885	OK	 
+REQUEST	1		Step 2 Redirect 2	1587997337887	1587997338120	KO	css((.collection_radio_buttons,None)).findAll.transform.exists extraction crashed: transform crashed: j.l.ClassCastException: [Ljava.lang.String; cannot be cast to java.lang.Integer
+USER	Test challengers.flood.io	1	END	1587997330116	1587997338139
